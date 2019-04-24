@@ -1,2 +1,4 @@
-controller\FileStorageException.class
-controller\MyFileNotFoundException.class
+controller\MediaTypeUtils.class
+controller\UploadController.class
+controller\DownloadFile.class
+SpringApp.class

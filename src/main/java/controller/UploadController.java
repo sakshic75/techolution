@@ -52,7 +52,7 @@ public class UploadController {
             inputStream = file.getInputStream();
 
             //Saving the file in a folder
-            File newFile = new File("F:/techolution/" + file.getOriginalFilename());
+            File newFile = new File("F:/techolution" + file.getOriginalFilename());
             if (!newFile.exists()) {
                 newFile.createNewFile();
             }
