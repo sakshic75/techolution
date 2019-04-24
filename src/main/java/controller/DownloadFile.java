@@ -19,7 +19,7 @@ import java.io.IOException;
 @Controller
 public class DownloadFile {
 
-    private static final String DIRECTORY = "F://techolution";
+    private static final String DIRECTORY = "C://techolution";
     private static final String DEFAULT_FILE_NAME = "Bigd.txt";
 
     @Autowired
